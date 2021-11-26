@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Hackaton.App.Dominio\Hackaton.App.Dominio.csproj" />
+    <ProjectReference Include="..\Hackaton.App.Persistencia\Hackaton.App.Persistencia.csproj" />
+  </ItemGroup>
+
 </Project>
