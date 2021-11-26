@@ -19,7 +19,7 @@ namespace Hackaton.App.Dominio.Entidades
         public string PaginaWeb { get; set; }
         [Required, StringLength(30)]
         public string Sector { get; set; }
-        //[Required, StringLength(30)]
+        [Required, StringLength(30)]
         public string ServiciosOfrece { get; set; }
     }
 }
