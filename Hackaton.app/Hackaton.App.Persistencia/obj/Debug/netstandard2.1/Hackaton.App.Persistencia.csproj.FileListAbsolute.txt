@@ -1,0 +1,12 @@
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Persistencia.deps.json
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Persistencia.dll
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Persistencia.pdb
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Dominio.dll
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\bin\Debug\netstandard2.1\Hackaton.App.Dominio.pdb
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csprojAssemblyReference.cache
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.AssemblyInfo.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.csproj.CopyComplete
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.dll
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Persistencia\obj\Debug\netstandard2.1\Hackaton.App.Persistencia.pdb
