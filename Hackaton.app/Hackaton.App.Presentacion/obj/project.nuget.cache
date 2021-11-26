@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kuLGPDrOwEshEjmI2K4zrs96xbixlIJQtf4WzdtYFGmXyQG0hAFkXH21T7ddR9UbuJTCr6HhUrk6/P+sAZTp1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Hackaton.App.Presentacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

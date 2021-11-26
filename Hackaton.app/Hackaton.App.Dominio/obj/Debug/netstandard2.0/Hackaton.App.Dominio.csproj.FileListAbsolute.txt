@@ -1,0 +1,9 @@
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\bin\Debug\netstandard2.0\Hackaton.App.Dominio.deps.json
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\bin\Debug\netstandard2.0\Hackaton.App.Dominio.dll
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\bin\Debug\netstandard2.0\Hackaton.App.Dominio.pdb
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\obj\Debug\netstandard2.0\Hackaton.App.Dominio.csprojAssemblyReference.cache
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\obj\Debug\netstandard2.0\Hackaton.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\obj\Debug\netstandard2.0\Hackaton.App.Dominio.AssemblyInfo.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\obj\Debug\netstandard2.0\Hackaton.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\obj\Debug\netstandard2.0\Hackaton.App.Dominio.dll
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Dominio\obj\Debug\netstandard2.0\Hackaton.App.Dominio.pdb
