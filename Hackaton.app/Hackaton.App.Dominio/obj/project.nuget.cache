@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Wsp47qIBmXnrUHalJe00rSqNesQ3aaAi0COXic9RUIqwRg+txUz2cK8oSUwrH+cecmzrc74a80fOrUFpJRBWmQ==",
+  "dgSpecHash": "8S0G7aXSJywjQ/M6G+nuMRP7c5tNadZBnM2uopT6mM0gtAN0Rj/r4CLqisCfZ13wRtEMXi0PCXcUDOJy7UxX5A==",
   "success": true,
   "projectFilePath": "C:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Dominio\\Hackaton.App.Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\willi\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\willi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\willi\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\willi\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
