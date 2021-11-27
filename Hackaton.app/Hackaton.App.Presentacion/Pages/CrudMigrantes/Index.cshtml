@@ -1,0 +1,96 @@
+@page
+@model Hackaton.App.Presentacion.Pages.CrudMigrantes.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].Nombres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].Apellidos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].TipoDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].NumeroDocumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].PaisOrigen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].FechaNacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].DireccionElectronica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].NumeroTelefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].DireccionActual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].SituacionLaboral)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Migrante) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroDocumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaisOrigen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaNacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DireccionElectronica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroTelefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DireccionActual)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SituacionLaboral)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -10,7 +10,7 @@ namespace Hackaton.App.Persistencia
 
         protected override void OnConfiguring(DbContextOptionsBuilder conn){
            if(!conn.IsConfigured){
-                conn.UseSqlServer("Data source = (localdb)\\MSSQLLocalDB; Initial Catalog = DigitalSolutions");
+                conn.UseSqlServer("Data source = (localdb)\\MSSQLLocalDB; Initial Catalog = DigitalSolutions2");
            }
        }
     }

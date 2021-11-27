@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hackaton.App.Persistencia.Migrations
 {
     [DbContext(typeof(Conexion))]
-    [Migration("20211127001900_Entidades")]
+    [Migration("20211127014449_Entidades")]
     partial class Entidades
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

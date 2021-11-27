@@ -1,0 +1,84 @@
+@page
+@model Hackaton.App.Presentacion.Pages.CrudMigrantes.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Migrante</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Migrante.Nombres" class="control-label"></label>
+                <input asp-for="Migrante.Nombres" class="form-control" />
+                <span asp-validation-for="Migrante.Nombres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.Apellidos" class="control-label"></label>
+                <input asp-for="Migrante.Apellidos" class="form-control" />
+                <span asp-validation-for="Migrante.Apellidos" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.TipoDocumento" class="control-label"></label>
+                <input asp-for="Migrante.TipoDocumento" class="form-control" />
+                <span asp-validation-for="Migrante.TipoDocumento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.NumeroDocumento" class="control-label"></label>
+                <input asp-for="Migrante.NumeroDocumento" class="form-control" />
+                <span asp-validation-for="Migrante.NumeroDocumento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.PaisOrigen" class="control-label"></label>
+                <input asp-for="Migrante.PaisOrigen" class="form-control" />
+                <span asp-validation-for="Migrante.PaisOrigen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.FechaNacimiento" class="control-label"></label>
+                <input asp-for="Migrante.FechaNacimiento" class="form-control" />
+                <span asp-validation-for="Migrante.FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.DireccionElectronica" class="control-label"></label>
+                <input asp-for="Migrante.DireccionElectronica" class="form-control" />
+                <span asp-validation-for="Migrante.DireccionElectronica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.NumeroTelefono" class="control-label"></label>
+                <input asp-for="Migrante.NumeroTelefono" class="form-control" />
+                <span asp-validation-for="Migrante.NumeroTelefono" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.DireccionActual" class="control-label"></label>
+                <input asp-for="Migrante.DireccionActual" class="form-control" />
+                <span asp-validation-for="Migrante.DireccionActual" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.Ciudad" class="control-label"></label>
+                <input asp-for="Migrante.Ciudad" class="form-control" />
+                <span asp-validation-for="Migrante.Ciudad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.SituacionLaboral" class="control-label"></label>
+                <input asp-for="Migrante.SituacionLaboral" class="form-control" />
+                <span asp-validation-for="Migrante.SituacionLaboral" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
