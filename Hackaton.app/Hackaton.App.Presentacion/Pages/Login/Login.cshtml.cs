@@ -9,6 +9,7 @@ using Hackaton.App.Persistencia;
 using Microsoft.AspNetCore.Http;
 
 
+
 namespace Hackaton.App.Presentacion.Pages
 {
     public class LoginModel : PageModel
@@ -47,7 +48,8 @@ namespace Hackaton.App.Presentacion.Pages
             if(migrante != null){
                 
                 if(migrante.Password.Equals(Contrasenia)){
-                    Response.Redirect("/CrudMigrante/Index");
+                    HttpContext.Session.SetString("username", User);
+                    Response.Redirect("/CrudMigrante/Details?id="+ migrante.Id);
                     return Page();
                     }       
                 else{
