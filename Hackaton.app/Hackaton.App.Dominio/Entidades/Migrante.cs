@@ -16,7 +16,11 @@ namespace Hackaton.App.Dominio.Entidades
         public string NumeroDocumento { get; set; }
         [Required, StringLength(11)]
         public string PaisOrigen { get; set; }
-        [Required, StringLength(11)]
+        [Required, StringLength(30)]
+        public string Usuario { get; set; }
+        [Required]
+        public string Password { get; set; }
+        [Required]
         public string FechaNacimiento { get; set; }
         public string DireccionElectronica { get; set; }
         public string NumeroTelefono { get; set; }

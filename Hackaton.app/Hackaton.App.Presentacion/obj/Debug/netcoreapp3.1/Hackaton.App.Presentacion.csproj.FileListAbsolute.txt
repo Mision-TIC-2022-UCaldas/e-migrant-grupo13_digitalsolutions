@@ -153,8 +153,9 @@ C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolut
 C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\bin\Debug\netcoreapp3.1\Hackaton.App.Persistencia.dll
 C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\bin\Debug\netcoreapp3.1\Hackaton.App.Dominio.pdb
 C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\bin\Debug\netcoreapp3.1\Hackaton.App.Persistencia.pdb
-C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrantes\Create.cshtml.g.cs
-C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrantes\Delete.cshtml.g.cs
-C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrantes\Details.cshtml.g.cs
-C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrantes\Edit.cshtml.g.cs
-C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrantes\Index.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\Create.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\Delete.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\Details.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\Edit.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\Index.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\Login.cshtml.g.cs

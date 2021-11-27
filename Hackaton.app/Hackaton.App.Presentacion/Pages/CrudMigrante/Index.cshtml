@@ -1,5 +1,5 @@
 @page
-@model Hackaton.App.Presentacion.Pages.CrudMigrantes.IndexModel
+@model Hackaton.App.Presentacion.Pages.CrudMigrante.IndexModel
 
 @{
     ViewData["Title"] = "Index";
@@ -27,6 +27,12 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Migrante[0].PaisOrigen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Migrante[0].Password)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Migrante[0].FechaNacimiento)
@@ -66,6 +72,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PaisOrigen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FechaNacimiento)

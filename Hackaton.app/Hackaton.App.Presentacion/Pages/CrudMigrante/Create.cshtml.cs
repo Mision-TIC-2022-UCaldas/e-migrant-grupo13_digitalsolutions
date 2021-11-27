@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Hackaton.App.Dominio.Entidades;
 using Hackaton.App.Persistencia;
 
-namespace Hackaton.App.Presentacion.Pages.CrudMigrantes
+namespace Hackaton.App.Presentacion.Pages.CrudMigrante
 {
     public class CreateModel : PageModel
     {

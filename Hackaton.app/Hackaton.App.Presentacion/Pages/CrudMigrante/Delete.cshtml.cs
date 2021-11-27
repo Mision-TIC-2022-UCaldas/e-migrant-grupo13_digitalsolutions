@@ -8,17 +8,18 @@ using Microsoft.EntityFrameworkCore;
 using Hackaton.App.Dominio.Entidades;
 using Hackaton.App.Persistencia;
 
-namespace Hackaton.App.Presentacion.Pages.CrudMigrantes
+namespace Hackaton.App.Presentacion.Pages.CrudMigrante
 {
-    public class DetailsModel : PageModel
+    public class DeleteModel : PageModel
     {
         private readonly Hackaton.App.Persistencia.Conexion _context;
 
-        public DetailsModel(Hackaton.App.Persistencia.Conexion context)
+        public DeleteModel(Hackaton.App.Persistencia.Conexion context)
         {
             _context = context;
         }
 
+        [BindProperty]
         public Migrante Migrante { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
@@ -35,6 +36,24 @@ namespace Hackaton.App.Presentacion.Pages.CrudMigrantes
                 return NotFound();
             }
             return Page();
+        }
+
+        public async Task<IActionResult> OnPostAsync(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            Migrante = await _context.Migrantes.FindAsync(id);
+
+            if (Migrante != null)
+            {
+                _context.Migrantes.Remove(Migrante);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToPage("./Index");
         }
     }
 }

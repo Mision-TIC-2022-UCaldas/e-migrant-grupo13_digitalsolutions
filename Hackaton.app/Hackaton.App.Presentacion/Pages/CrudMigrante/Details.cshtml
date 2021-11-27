@@ -1,5 +1,5 @@
 @page
-@model Hackaton.App.Presentacion.Pages.CrudMigrantes.DetailsModel
+@model Hackaton.App.Presentacion.Pages.CrudMigrante.DetailsModel
 
 @{
     ViewData["Title"] = "Details";
@@ -40,6 +40,18 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Migrante.PaisOrigen)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Migrante.Usuario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Migrante.Usuario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Migrante.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Migrante.Password)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Migrante.FechaNacimiento)

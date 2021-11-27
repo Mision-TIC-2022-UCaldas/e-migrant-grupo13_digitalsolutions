@@ -1,5 +1,5 @@
 @page
-@model Hackaton.App.Presentacion.Pages.CrudMigrantes.EditModel
+@model Hackaton.App.Presentacion.Pages.CrudMigrante.EditModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -38,6 +38,16 @@
                 <label asp-for="Migrante.PaisOrigen" class="control-label"></label>
                 <input asp-for="Migrante.PaisOrigen" class="form-control" />
                 <span asp-validation-for="Migrante.PaisOrigen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.Usuario" class="control-label"></label>
+                <input asp-for="Migrante.Usuario" class="form-control" />
+                <span asp-validation-for="Migrante.Usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Migrante.Password" class="control-label"></label>
+                <input asp-for="Migrante.Password" class="form-control" />
+                <span asp-validation-for="Migrante.Password" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Migrante.FechaNacimiento" class="control-label"></label>
