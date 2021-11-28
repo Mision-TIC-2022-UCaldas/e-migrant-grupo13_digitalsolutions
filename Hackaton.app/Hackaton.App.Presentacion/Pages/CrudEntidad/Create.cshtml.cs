@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Hackaton.App.Dominio.Entidades;
 using Hackaton.App.Persistencia;
+using Microsoft.AspNetCore.Http;
 
 namespace Hackaton.App.Presentacion.Pages.CrudEntidad
 {
@@ -27,10 +28,38 @@ namespace Hackaton.App.Presentacion.Pages.CrudEntidad
         [BindProperty]
         public Entidad Entidad { get; set; }
 
+        [BindProperty]
+        public string MensajeNit { get; set; }
+
+        
+
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            Conexion conexion = new Conexion();
+            Entidad entidad = conexion.Entidades.FirstOrDefault(e => e.Nit == Entidad.Nit);
+            
+             if(entidad != null){
+                
+                if(entidad.Nit.Equals(Entidad.Nit)){
+                    HttpContext.Session.SetString("nit", Entidad.Nit);
+                    MensajeNit = "El Nit ingresado ya existe";
+                    return Page();
+                    }       
+                else{
+                    MensajeNit = "Nit correcto";
+                }  
+
+                 }else{
+                MensajeNit = "Nit correcto";
+               
+            }
+
+
+
+
+
             if (!ModelState.IsValid)
             {
                 return Page();

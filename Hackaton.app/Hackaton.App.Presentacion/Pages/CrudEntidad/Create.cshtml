@@ -21,7 +21,9 @@
             <div class="form-group">
                 <label asp-for="Entidad.Nit" class="control-label"></label>
                 <input asp-for="Entidad.Nit" class="form-control" />
+                <span class="text-danger">@Model.MensajeNit</span>
                 <span asp-validation-for="Entidad.Nit" class="text-danger"></span>
+                
             </div>
             <div class="form-group">
                 <label asp-for="Entidad.Direccion" class="control-label"></label>

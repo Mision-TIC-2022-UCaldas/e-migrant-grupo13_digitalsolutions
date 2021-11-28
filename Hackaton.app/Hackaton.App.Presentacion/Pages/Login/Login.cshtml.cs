@@ -30,7 +30,8 @@ namespace Hackaton.App.Presentacion.Pages
         [BindProperty]
         public bool UsuarioAutenticado {get; set;}
 
-
+        [BindProperty]
+        public Entidad Entidad { get; set; }
         public void OnGet()
         {
             /*var usuarioAutenticado = HttpContext.Session.GetString("usuarioAutenticado");
