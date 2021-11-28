@@ -14472,6 +14472,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\LoginEntidades\\LoginEntidades.cshtml",
+      "TargetPath": "Pages\\LoginEntidades\\LoginEntidades.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"

@@ -37,6 +37,12 @@
             <th>
                 @Html.DisplayNameFor(model => model.Entidad[0].ServiciosOfrece)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].Password)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -66,6 +72,12 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ServiciosOfrece)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |

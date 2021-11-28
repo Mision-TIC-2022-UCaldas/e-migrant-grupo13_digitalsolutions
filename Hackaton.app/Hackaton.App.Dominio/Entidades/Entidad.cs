@@ -21,6 +21,11 @@ namespace Hackaton.App.Dominio.Entidades
         public Sector Sector { get; set; }
         [Required]
         public ServiciosOfrece ServiciosOfrece { get; set; }
+        [Required]
+        public string Usuario { get; set; }
+        [Required]
+        public string Password { get; set; }
+        
         
     }
 }

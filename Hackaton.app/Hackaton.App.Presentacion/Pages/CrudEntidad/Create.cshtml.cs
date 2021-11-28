@@ -27,11 +27,9 @@ namespace Hackaton.App.Presentacion.Pages.CrudEntidad
 
         [BindProperty]
         public Entidad Entidad { get; set; }
-
+        
         [BindProperty]
         public string MensajeNit { get; set; }
-
-        
 
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.
@@ -39,8 +37,8 @@ namespace Hackaton.App.Presentacion.Pages.CrudEntidad
         {
             Conexion conexion = new Conexion();
             Entidad entidad = conexion.Entidades.FirstOrDefault(e => e.Nit == Entidad.Nit);
-            
-             if(entidad != null){
+
+            if(entidad != null){
                 
                 if(entidad.Nit.Equals(Entidad.Nit)){
                     HttpContext.Session.SetString("nit", Entidad.Nit);
@@ -55,8 +53,6 @@ namespace Hackaton.App.Presentacion.Pages.CrudEntidad
                 MensajeNit = "Nit correcto";
                
             }
-
-
 
 
 

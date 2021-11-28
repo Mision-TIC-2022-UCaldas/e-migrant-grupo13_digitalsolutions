@@ -23,7 +23,6 @@
                 <input asp-for="Entidad.Nit" class="form-control" />
                 <span class="text-danger">@Model.MensajeNit</span>
                 <span asp-validation-for="Entidad.Nit" class="text-danger"></span>
-                
             </div>
             <div class="form-group">
                 <label asp-for="Entidad.Direccion" class="control-label"></label>
@@ -57,7 +56,8 @@
                 </select>
                 <span asp-validation-for="Entidad.Sector" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+              <div class="form-group">
                 <label asp-for="Entidad.ServiciosOfrece" class="control-label"></label>
                 <select asp-for="Entidad.ServiciosOfrece" class="form-control">
                     <option></option>
@@ -72,6 +72,16 @@
                     <option value="8">Otros</option>
                 </select>
                 <span asp-validation-for="Entidad.ServiciosOfrece" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.Usuario" class="control-label"></label>
+                <input asp-for="Entidad.Usuario" class="form-control" />
+                <span asp-validation-for="Entidad.Usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.Password" class="control-label"></label>
+                <input asp-for="Entidad.Password" class="form-control" />
+                <span asp-validation-for="Entidad.Password" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
