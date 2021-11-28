@@ -1,0 +1,87 @@
+@page
+@model Hackaton.App.Presentacion.Pages.CrudEntidad.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Entidad</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Entidad.RazonSocial" class="control-label"></label>
+                <input asp-for="Entidad.RazonSocial" class="form-control" />
+                <span asp-validation-for="Entidad.RazonSocial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.Nit" class="control-label"></label>
+                <input asp-for="Entidad.Nit" class="form-control" />
+                <span asp-validation-for="Entidad.Nit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.Direccion" class="control-label"></label>
+                <input asp-for="Entidad.Direccion" class="form-control" />
+                <span asp-validation-for="Entidad.Direccion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.Ciudad" class="control-label"></label>
+                <input asp-for="Entidad.Ciudad" class="form-control" />
+                <span asp-validation-for="Entidad.Ciudad" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.DireccionElectronica" class="control-label"></label>
+                <input asp-for="Entidad.DireccionElectronica" class="form-control" />
+                <span asp-validation-for="Entidad.DireccionElectronica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.PaginaWeb" class="control-label"></label>
+                <input asp-for="Entidad.PaginaWeb" class="form-control" />
+                <span asp-validation-for="Entidad.PaginaWeb" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.Sector" class="control-label"></label>
+                <select asp-for="Entidad.Sector" class="form-control">
+                    <option></option>
+                    <option value="0">Público</option>
+                    <option value="1">Privado</option>
+                    <option value="2">Sin ánimo de lucro</option>
+                    <option value="3">No gubernamental</option>
+                    <option value="4">Otro</option>
+                </select>
+                <span asp-validation-for="Entidad.Sector" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Entidad.ServiciosOfrece" class="control-label"></label>
+                <select asp-for="Entidad.ServiciosOfrece" class="form-control">
+                    <option></option>
+                    <option value="0">Salud</option>
+                    <option value="1">Jurídicos</option>
+                    <option value="2">Víveres</option>
+                    <option value="3">Comida preparada</option>
+                    <option value="4">Empleo</option>
+                    <option value="5">Alojamiento temporal</option>
+                    <option value="6">Alojamiento permanente</option>
+                    <option value="7">Educación</option>
+                    <option value="8">Otros</option>
+                </select>
+                <span asp-validation-for="Entidad.ServiciosOfrece" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

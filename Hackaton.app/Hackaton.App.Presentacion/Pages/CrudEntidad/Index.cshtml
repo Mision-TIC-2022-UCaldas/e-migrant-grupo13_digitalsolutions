@@ -1,0 +1,78 @@
+@page
+@model Hackaton.App.Presentacion.Pages.CrudEntidad.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].Nit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].Direccion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].DireccionElectronica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].PaginaWeb)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].Sector)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Entidad[0].ServiciosOfrece)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Entidad) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RazonSocial)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Direccion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ciudad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DireccionElectronica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaginaWeb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sector)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ServiciosOfrece)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

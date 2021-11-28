@@ -14402,8 +14402,23 @@
   "RootNamespace": "Hackaton.App.Presentacion",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\Edit.cshtml",
+      "TargetPath": "Pages\\CrudMigrante\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudEntidad\\Create.cshtml",
+      "TargetPath": "Pages\\CrudEntidad\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\Login\\Login.cshtml",
+      "TargetPath": "Pages\\Login\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14412,8 +14427,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudEntidad\\Index.cshtml",
+      "TargetPath": "Pages\\CrudEntidad\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\Details.cshtml",
+      "TargetPath": "Pages\\CrudMigrante\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\CambioPassword.cshtml",
+      "TargetPath": "Pages\\CrudMigrante\\CambioPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudEntidad\\Edit.cshtml",
+      "TargetPath": "Pages\\CrudEntidad\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14422,8 +14457,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\Index.cshtml",
+      "TargetPath": "Pages\\CrudMigrante\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudEntidad\\Details.cshtml",
+      "TargetPath": "Pages\\CrudEntidad\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14434,6 +14479,21 @@
     {
       "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\Delete.cshtml",
+      "TargetPath": "Pages\\CrudMigrante\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudEntidad\\Delete.cshtml",
+      "TargetPath": "Pages\\CrudEntidad\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\Create.cshtml",
+      "TargetPath": "Pages\\CrudMigrante\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -160,3 +160,8 @@ C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolut
 C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\Index.cshtml.g.cs
 C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Login\Login.cshtml.g.cs
 C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudMigrante\CambioPassword.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEntidad\Create.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEntidad\Delete.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEntidad\Details.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEntidad\Edit.cshtml.g.cs
+C:\Users\willi\OneDrive\Documents\GitHub\Hackaton\e-migrant-grupo13_digitalsolutions\Hackaton.app\Hackaton.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\CrudEntidad\Index.cshtml.g.cs
