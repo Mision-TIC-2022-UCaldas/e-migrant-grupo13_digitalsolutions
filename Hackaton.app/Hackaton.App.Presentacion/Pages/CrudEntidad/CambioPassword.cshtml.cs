@@ -10,7 +10,7 @@ using Hackaton.App.Dominio.Entidades;
 
 namespace Hackaton.App.Presentacion.Pages
 {
-    public class CambioPasswordModel : PageModel
+    public class CambioPasswordModel2 : PageModel
     {
 
         [BindProperty]
@@ -26,16 +26,16 @@ namespace Hackaton.App.Presentacion.Pages
         public void OnPost()
         {
             Conexion conexion = new Conexion();
-            var User = HttpContext.Session.GetString("username");
-            Migrante migrante = conexion.Migrantes.FirstOrDefault(e => e.Usuario == User);
+            var User = HttpContext.Session.GetString("username2");
+            Entidad entidad = conexion.Entidades.FirstOrDefault(e => e.Usuario == User);
 
             if(!Contrasenia.Equals(RepeatContrasenia)){
                 MensajePassword = "Las contraseñas no coinciden";
                 //return Page();
             }else{
-                migrante.Password = Contrasenia;
+                entidad.Password = Contrasenia;
                 conexion.SaveChanges();
-                Response.Redirect("/CrudMigrante/Details?id="+migrante.Id);
+                Response.Redirect("/CrudEntidad/Details?id="+entidad.Id);
                 //return RedirectToPage("../Index");
             }
         }

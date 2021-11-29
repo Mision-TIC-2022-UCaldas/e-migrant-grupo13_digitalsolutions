@@ -66,7 +66,16 @@ namespace Hackaton.App.Presentacion.Pages.CrudEntidad
                 }
             }
 
-            return RedirectToPage("./Index");
+             if(Entidad != null){
+
+                    Response.Redirect("/CrudEntidad/Details?id="+ Entidad.Id);
+                    return Page();
+                    }       
+                else{
+                    
+                    return Page();
+                }  
+
         }
 
         private bool EntidadExists(int id)

@@ -77,3 +77,16 @@
     <a asp-page="./Edit" asp-route-id="@Model.Entidad.Id">Edit</a> |
     <a asp-page="./Index">Back to List</a>
 </div>
+
+<div class="form-group">
+
+         <form method="get" action="/CrudEntidad/CambioPassword">
+            <input asp-for="@Model.Entidad.Usuario" name="username" type="hidden" value="@Model.Entidad.Usuario"/>
+
+            <div class="form-group">
+                <input type="submit" value="Cambio de Contraseña" class="btn btn-primary" />
+            </div>
+           
+        </form>
+
+</div>

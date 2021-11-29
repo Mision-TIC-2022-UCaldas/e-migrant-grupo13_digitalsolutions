@@ -40,7 +40,7 @@ namespace Hackaton.App.Presentacion.Pages
             if(entidad != null){
                 
                 if(entidad.Password.Equals(Contrasenia)){
-                    HttpContext.Session.SetString("username", User);
+                    HttpContext.Session.SetString("username2", User);
                     Response.Redirect("/CrudEntidad/Details?id="+ entidad.Id);
                     return Page();
                     }       

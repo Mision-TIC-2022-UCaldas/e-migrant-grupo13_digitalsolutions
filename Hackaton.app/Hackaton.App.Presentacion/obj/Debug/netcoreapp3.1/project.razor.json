@@ -14402,6 +14402,11 @@
   "RootNamespace": "Hackaton.App.Presentacion",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudEntidad\\CambioPassword.cshtml",
+      "TargetPath": "Pages\\CrudEntidad\\CambioPassword.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\willi\\OneDrive\\Documents\\GitHub\\Hackaton\\e-migrant-grupo13_digitalsolutions\\Hackaton.app\\Hackaton.App.Presentacion\\Pages\\CrudMigrante\\Edit.cshtml",
       "TargetPath": "Pages\\CrudMigrante\\Edit.cshtml",
       "FileKind": "mvc"
